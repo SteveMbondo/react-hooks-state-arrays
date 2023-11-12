@@ -18,7 +18,6 @@ function SpicyFoodList() {
   }
 
   function handleAddFood() {
-    // Assuming you have a getNewRandomSpicyFood function
     const newFood = getNewRandomSpicyFood();
     const newFoodArray = [...foods, newFood];
     setFoods(newFoodArray);
